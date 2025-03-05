@@ -6,3 +6,16 @@ While hardly comprehensive, the results suggest that LLMs do not typically do a 
 
 The purpose of this experiment is to better understand whether or not logP could be used as a useful metric for mission-critical answers - if a model is not confident in a particular decision during a high-stakes process perhaps we could detect this and intervene.
 
+The questions used are are subjective yes/no questions in [questions.txt](questions.txt).
+
+### Difference Between Self-Evaluated / LogP-Derived Confidence
+
+![Bar chart comparing self-evaluated vs logp derived confidence](confidence_difference_chart.png)
+
+### Correlation Between Self-Evaluated / LogP-Derived Confidence
+
+![Scatter chart showing correlation between self-evaluated vs logp derived confidence](confidence_correlation_scatter.png)
+
+### Self-Evaluated / LogP-Derived Confidence Scores
+
+![Bar chart comparing self-evaluated vs logp derived confidence](confidence_comparison_bar.png)
