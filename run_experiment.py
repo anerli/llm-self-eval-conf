@@ -11,8 +11,6 @@ from matplotlib.ticker import MaxNLocator
 # client = openai.OpenAI(api_key="your-api-key-here")  # Uncomment and add your key
 client = openai.OpenAI()  # This will use the OPENAI_API_KEY environment variable
 
-TEMPERATURE = 0.0
-
 def get_confidence_and_logprobs(question, model="gpt-4o"):
     """
     Get yes/no answer with self-evaluated confidence AND token logprobs.
@@ -45,7 +43,7 @@ def get_confidence_and_logprobs(question, model="gpt-4o"):
             {"role": "system", "content": system_message},
             {"role": "user", "content": question}
         ],
-        temperature=TEMPERATURE
+        temperature=0  # Use temperature=0 for deterministic response
     )
     
     full_response = response_full.choices[0].message.content.strip()
@@ -255,6 +253,64 @@ def create_scatter_correlation(results, output_file='confidence_correlation_scat
     print("\nQuestions:")
     for i, r in enumerate(results):
         print(f"{i+1}. {r['question']}")
+        
+def create_difference_chart(results, output_file='confidence_difference_chart.png'):
+    """Create a chart showing the difference between self-evaluated and logp-derived confidence"""
+    # Data preparation
+    self_confidence = [r["self_confidence"] for r in results]
+    logp_confidence = [r["logp_confidence"] for r in results]
+    differences = [s - l for s, l in zip(self_confidence, logp_confidence)]
+    
+    # Setup the figure
+    plt.figure(figsize=(14, 8))
+    
+    # Create the bar chart with color coding
+    ind = np.arange(len(results))
+    colors = ['#4285F4' if d >= 0 else '#EA4335' for d in differences]
+    
+    plt.bar(ind, differences, color=colors, alpha=0.8)
+    plt.axhline(y=0, color='black', linestyle='-', alpha=0.5, linewidth=1)
+    
+    # Add value labels on top of each bar
+    for i, diff in enumerate(differences):
+        va = 'bottom' if diff >= 0 else 'top'
+        plt.text(i, diff + (2 if diff >= 0 else -2), 
+                 f"{diff:.1f}%", 
+                 ha='center', va=va, 
+                 fontsize=8, 
+                 fontweight='bold')
+    
+    # Labels and styling
+    plt.title('Difference between Self-evaluated and LogP-derived Confidence\n(Self - LogP)', fontsize=14)
+    plt.ylabel('Difference (%)', fontsize=12)
+    plt.xlabel('Question Number', fontsize=12)
+    plt.xticks(ind, range(1, len(results) + 1))
+    
+    # Add a horizontal grid
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    
+    # Set appropriate y-axis limits
+    max_abs_diff = max(abs(min(differences)), abs(max(differences)))
+    buffer = max_abs_diff * 0.2  # 20% buffer
+    plt.ylim(-max_abs_diff - buffer, max_abs_diff + buffer)
+    
+    # Add a legend explaining colors
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='#4285F4', edgecolor='black', alpha=0.8, label='Self > LogP'),
+        Patch(facecolor='#EA4335', edgecolor='black', alpha=0.8, label='LogP > Self')
+    ]
+    plt.legend(handles=legend_elements, loc='best')
+    
+    # Tight layout and save
+    plt.tight_layout()
+    plt.savefig(output_file, dpi=300)
+    plt.close()
+    
+    # Print the questions with their numbers
+    print("\nQuestions:")
+    for i, r in enumerate(results):
+        print(f"{i+1}. {r['question']}")
 
 def create_comparison_table(results):
     """Create a markdown table with comparison data"""
@@ -310,54 +366,36 @@ def analyze_results(results):
 
 # Example usage
 if __name__ == "__main__":
-    # A range of questions with varying degrees of certainty
-    questions = [
-        "Is pineapple an appropriate pizza topping?",
-        "Is it morally acceptable to lie to protect someone's feelings?",
-        "Are cats better pets than dogs?",
-        "Is modern art valuable?",
-        "Should society prioritize individual freedom over collective welfare?",
-        "Does free will truly exist?",
-        "Is it ethical to eat meat?",
-        "Are superhero movies good cinema?",
-        "Is mathematics discovered or invented?",
-        "Should schools eliminate homework completely?",
-        "Is it better to be kind or to be right?",
-        "Does true altruism exist?",
-        "Is technology making people more or less connected?",
-        "Is a minimalist lifestyle superior to a materialistic one?",
-        "Should tipping be eliminated in restaurants?",
-        "Is breakfast the most important meal of the day?",
-        "Is it better to live in a city than in a rural area?",
-        "Should people generally trust their intuition over data?",
-        "Is privacy more important than convenience?",
-        "Are social media platforms overall beneficial to society?",
-        "Is nature more influential than nurture in determining personality?",
-        "Should all education be free?",
-        "Is it unethical to eat animal products?",
-        "Is love primarily a chemical reaction?",
-        "Should voting be mandatory?",
-        "Is capitalism the best economic system?",
-        "Are aliens likely to exist?",
-        "Is professional sports a positive influence on culture?",
-        "Should all drugs be decriminalized?",
-        "Is it wrong to genetically modify human embryos?",
-        "Should artificial intelligence development be restricted?",
-        "Is democracy always the best form of government?",
-        "Is there objective truth in art criticism?",
-        "Should parents monitor their teenagers' online activities?",
-        "Is it ethical to use animals in scientific research?",
-        "Should healthcare be completely free?",
-        "Is it better to specialize or be a generalist in your career?",
-        "Can money buy happiness?",
-        "Is nuclear energy a good solution for climate change?",
-        "Is there such a thing as a just war?",
-        "Should college athletes be paid?",
-        "Is social media making people more narcissistic?",
-        "Should religious institutions pay taxes?",
-        "Is home ownership better than renting?",
-        "Is it moral to eat meat if you could choose not to?"
-    ]
+    # Read questions from a text file
+    try:
+        with open('questions.txt', 'r') as file:
+            questions = [line.strip() for line in file if line.strip()]
+        
+        print(f"Successfully loaded {len(questions)} questions from questions.txt")
+    except FileNotFoundError:
+        print("Error: questions.txt file not found!")
+        print("Creating a sample questions.txt file with example questions...")
+        
+        # Sample questions if file doesn't exist
+        sample_questions = [
+            "Is pineapple an appropriate pizza topping?",
+            "Is it morally acceptable to lie to protect someone's feelings?",
+            "Are cats better pets than dogs?",
+            "Is modern art valuable?",
+            "Should society prioritize individual freedom over collective welfare?"
+        ]
+        
+        # Write sample questions to file
+        with open('questions.txt', 'w') as file:
+            for question in sample_questions:
+                file.write(question + '\n')
+        
+        print("Sample questions.txt created. Edit this file and run the script again.")
+        questions = sample_questions
+    
+    if not questions:
+        print("No questions found. Please add questions to questions.txt, one per line.")
+        exit(1)
     
     results = []
     print(f"Running experiment with {len(questions)} questions...")
@@ -382,6 +420,7 @@ if __name__ == "__main__":
         # Create separate visualizations with improved formatting
         create_bar_chart_comparison(results)
         create_scatter_correlation(results)
+        create_difference_chart(results)
         
         # Generate and print comparison table
         table = create_comparison_table(results)

@@ -27,21 +27,21 @@
     "self_answer": "No",
     "self_confidence": 50,
     "logprob_answer": "No",
-    "logp_confidence": 99.98158577180347,
-    "yes_logprob": -8.625186920166016,
-    "no_logprob": -0.0001872094871941954,
-    "yes_probability": 0.017952719274086714,
-    "no_probability": 99.98158577180347,
-    "other_probability": 0.0004615089224378982,
+    "logp_confidence": 99.89278380554862,
+    "yes_logprob": -7.25117826461792,
+    "no_logprob": -0.0011783202644437551,
+    "yes_probability": 0.07094130063652304,
+    "no_probability": 99.89278380554862,
+    "other_probability": 0.036274893814864595,
     "content": "no",
     "top_tokens": {
-      "no": -0.0001872094871941954,
-      "yes": -8.625186920166016,
-      "i'm": -13.125186920166016,
-      "i": -13.375186920166016,
-      "it": -13.750186920166016
+      "no": -0.0011783202644437551,
+      "yes": -7.25117826461792,
+      "i'm": -8.501178741455078,
+      "i": -9.376178741455078,
+      "this": -9.501178741455078
     },
-    "logp_diff": 8.624999710678821
+    "logp_diff": 7.249999944353476
   },
   {
     "question": "Is modern art valuable?",
@@ -71,21 +71,21 @@
     "self_answer": "No",
     "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 80.14455036374643,
-    "yes_logprob": -3.6143195629119873,
-    "no_logprob": -0.23931945860385895,
-    "yes_probability": 2.7423954203278043,
-    "no_probability": 80.14455036374643,
-    "other_probability": 17.11305421592576,
+    "logp_confidence": 74.15100857932177,
+    "yes_logprob": -3.4490034580230713,
+    "no_logprob": -0.32400351762771606,
+    "yes_probability": 3.2579681362484023,
+    "no_probability": 74.15100857932177,
+    "other_probability": 22.591023284429816,
     "content": "no",
     "top_tokens": {
-      "no": -0.23931945860385895,
-      "this": -2.2393195629119873,
-      "i'm": -2.9893195629119873,
-      "yes": -3.6143195629119873,
-      "the": -4.489319324493408
+      "no": -0.32400351762771606,
+      "this": -2.3240034580230713,
+      "i'm": -2.5740034580230713,
+      "as": -3.0740034580230713,
+      "yes": -3.4490034580230713
     },
-    "logp_diff": 3.3750001043081284
+    "logp_diff": 3.1249999403953552
   },
   {
     "question": "Does free will truly exist?",
@@ -93,21 +93,21 @@
     "self_answer": "No",
     "self_confidence": 50,
     "logprob_answer": "No",
-    "logp_confidence": 98.69923539428396,
-    "yes_logprob": -4.888240814208984,
-    "no_logprob": -0.013241049833595753,
-    "yes_probability": 0.7535781391263312,
-    "no_probability": 98.69923539428396,
-    "other_probability": 0.547186466589717,
+    "logp_confidence": 99.802745399119,
+    "yes_logprob": -8.001998901367188,
+    "no_logprob": -0.0019985849503427744,
+    "yes_probability": 0.03348008064981062,
+    "no_probability": 99.802745399119,
+    "other_probability": 0.16377452023120406,
     "content": "no",
     "top_tokens": {
-      "no": -0.013241049833595753,
-      "yes": -4.888240814208984,
-      "the": -5.763240814208984,
-      "this": -6.263240814208984,
-      "i'm": -7.763240814208984
+      "no": -0.0019985849503427744,
+      "the": -7.001998424530029,
+      "this": -7.251998424530029,
+      "yes": -8.001998901367188,
+      "i'm": -10.876998901367188
     },
-    "logp_diff": 4.874999764375389
+    "logp_diff": 8.000000316416845
   },
   {
     "question": "Is it ethical to eat meat?",
@@ -159,21 +159,21 @@
     "self_answer": "No",
     "self_confidence": 50,
     "logprob_answer": "No",
-    "logp_confidence": 96.65255834079473,
-    "yes_logprob": -4.034501075744629,
-    "no_logprob": -0.03450129181146622,
-    "yes_probability": 1.7702537387353945,
-    "no_probability": 96.65255834079473,
-    "other_probability": 1.5771879204698775,
+    "logp_confidence": 97.29340638511346,
+    "yes_logprob": -4.402769088745117,
+    "no_logprob": -0.027769243344664574,
+    "yes_probability": 1.2247434281715093,
+    "no_probability": 97.29340638511346,
+    "other_probability": 1.4818501867150318,
     "content": "no",
     "top_tokens": {
-      "no": -0.03450129181146622,
-      "yes": -4.034501075744629,
-      "this": -4.409501075744629,
-      "the": -5.659501075744629,
-      "i'm": -9.034501075744629
+      "no": -0.027769243344664574,
+      "yes": -4.402769088745117,
+      "this": -4.652769088745117,
+      "the": -5.277769088745117,
+      "both": -8.652769088745117
     },
-    "logp_diff": 3.9999997839331627
+    "logp_diff": 4.374999845400453
   },
   {
     "question": "Should schools eliminate homework completely?",
@@ -181,21 +181,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 99.9670210860235,
-    "yes_logprob": -9.500349044799805,
-    "no_logprob": -0.0003491705865599215,
-    "yes_probability": 0.00748271539793764,
-    "no_probability": 99.9670210860235,
-    "other_probability": 0.02549619857856366,
+    "logp_confidence": 97.14756097119958,
+    "yes_logprob": -100,
+    "no_logprob": -0.03305456414818764,
+    "yes_probability": 3.7354173013132734e-42,
+    "no_probability": 97.14756097119958,
+    "other_probability": 2.852439028800409,
     "content": "no",
     "top_tokens": {
-      "no": -0.0003491705865599215,
-      "this": -8.375349044799805,
-      "yes": -9.500349044799805,
-      "the": -11.250349044799805,
-      "there": -11.375349044799805
+      "no": -0.03305456414818764,
+      "this": -4.033054351806641,
+      "i'm": -5.408054351806641,
+      "there": -5.658054351806641,
+      "i": -5.908054351806641
     },
-    "logp_diff": 9.499999874213245
+    "logp_diff": 99.96694543585181
   },
   {
     "question": "Is it better to be kind or to be right?",
@@ -203,21 +203,21 @@
     "self_answer": "No",
     "self_confidence": 50,
     "logprob_answer": "No",
-    "logp_confidence": 92.92510745547492,
-    "yes_logprob": -4.576946258544922,
-    "no_logprob": -0.07694634795188904,
-    "yes_probability": 1.0323047893339015,
-    "no_probability": 92.92510745547492,
-    "other_probability": 6.04258775519118,
+    "logp_confidence": 93.08514808006241,
+    "yes_logprob": -4.950744152069092,
+    "no_logprob": -0.0757443755865097,
+    "yes_probability": 0.7107140348247561,
+    "no_probability": 93.08514808006241,
+    "other_probability": 6.204137885112837,
     "content": "no",
     "top_tokens": {
-      "no": -0.07694634795188904,
-      "this": -3.826946258544922,
-      "i": -3.951946258544922,
-      "i'm": -3.951946258544922,
-      "yes": -4.576946258544922
+      "no": -0.0757443755865097,
+      "this": -3.575744390487671,
+      "i'm": -3.700744390487671,
+      "i": -4.700744152069092,
+      "yes": -4.950744152069092
     },
-    "logp_diff": 4.499999910593033
+    "logp_diff": 4.874999776482582
   },
   {
     "question": "Does true altruism exist?",
@@ -225,43 +225,43 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 97.60539386130634,
-    "yes_logprob": -3.7742462158203125,
-    "no_logprob": -0.02424629032611847,
-    "yes_probability": 2.2954590180308916,
-    "no_probability": 97.60539386130634,
-    "other_probability": 0.09914712066277526,
+    "logp_confidence": 97.48083956279744,
+    "yes_logprob": -3.775533437728882,
+    "no_logprob": -0.02553352527320385,
+    "yes_probability": 2.2925298113662276,
+    "no_probability": 97.48083956279744,
+    "other_probability": 0.22663062583634275,
     "content": "no",
     "top_tokens": {
-      "no": -0.02424629032611847,
-      "yes": -3.7742462158203125,
-      "this": -7.3992462158203125,
-      "the": -7.8992462158203125,
-      "there": -11.649246215820312
+      "no": -0.02553352527320385,
+      "yes": -3.775533437728882,
+      "this": -6.525533676147461,
+      "the": -7.150533676147461,
+      "there": -11.025533676147461
     },
-    "logp_diff": 3.749999925494194
+    "logp_diff": 3.749999912455678
   },
   {
     "question": "Is technology making people more or less connected?",
-    "full_response": "Yes. Confidence: 60%",
-    "self_answer": "Yes",
+    "full_response": "No. Confidence: 60%",
+    "self_answer": "No",
     "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 17.11516801840807,
-    "yes_logprob": -1.7709128856658936,
-    "no_logprob": -0.27091291546821594,
-    "yes_probability": 17.11516801840807,
-    "no_probability": 76.70485915911605,
-    "other_probability": 6.179972822475877,
+    "logp_confidence": 53.60476858087304,
+    "yes_logprob": -0.879317045211792,
+    "no_logprob": -0.629317045211792,
+    "yes_probability": 41.74743574714536,
+    "no_probability": 53.60476858087304,
+    "other_probability": 4.647795671981596,
     "content": "no",
     "top_tokens": {
-      "no": -0.27091291546821594,
-      "yes": -1.7709128856658936,
-      "this": -3.3959128856658936,
-      "the": -4.270913124084473,
-      "i'm": -4.270913124084473
+      "no": -0.629317045211792,
+      "yes": -0.879317045211792,
+      "this": -3.629317045211792,
+      "the": -4.504317283630371,
+      "i'm": -4.754317283630371
     },
-    "logp_diff": 1.4999999701976776
+    "logp_diff": 0.25
   },
   {
     "question": "Is a minimalist lifestyle superior to a materialistic one?",
@@ -269,21 +269,21 @@
     "self_answer": "No",
     "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 99.9986241899769,
-    "yes_logprob": -11.250014305114746,
-    "no_logprob": -1.4617256056226324e-05,
-    "yes_probability": 0.0013007122758422467,
-    "no_probability": 99.9986241899769,
-    "other_probability": 7.509774727925554e-05,
+    "logp_confidence": 99.99823343249703,
+    "yes_logprob": -11.000019073486328,
+    "no_logprob": -1.9027791495318525e-05,
+    "yes_probability": 0.0016701404980259131,
+    "no_probability": 99.99823343249703,
+    "other_probability": 9.642700493495745e-05,
     "content": "no",
     "top_tokens": {
-      "no": -1.4617256056226324e-05,
-      "yes": -11.250014305114746,
-      "this": -14.625014305114746,
-      "the": -15.000014305114746,
-      " no": -15.000014305114746
+      "no": -1.9027791495318525e-05,
+      "yes": -11.000019073486328,
+      "this": -14.375019073486328,
+      "the": -14.750019073486328,
+      " no": -14.750019073486328
     },
-    "logp_diff": 11.24999968785869
+    "logp_diff": 11.000000045694833
   },
   {
     "question": "Should tipping be eliminated in restaurants?",
@@ -291,21 +291,21 @@
     "self_answer": "No",
     "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 92.04579909190733,
+    "logp_confidence": 81.35742308895459,
     "yes_logprob": -100,
-    "no_logprob": -0.09201867133378983,
-    "yes_probability": 3.7542136398950134e-42,
-    "no_probability": 92.04579909190733,
-    "other_probability": 7.9542009080926634,
+    "no_logprob": -0.20935256779193878,
+    "yes_probability": 3.7313815425891667e-42,
+    "no_probability": 81.35742308895459,
+    "other_probability": 18.642576911045417,
     "content": "no",
     "top_tokens": {
-      "no": -0.09201867133378983,
-      "this": -2.8420186042785645,
-      "i": -4.7170186042785645,
-      "i'm": -5.0920186042785645,
-      "as": -5.2170186042785645
+      "no": -0.20935256779193878,
+      "i'm": -2.209352493286133,
+      "i": -3.209352493286133,
+      "this": -3.584352493286133,
+      "as": -4.834352493286133
     },
-    "logp_diff": 99.90798132866621
+    "logp_diff": 99.79064743220806
   },
   {
     "question": "Is breakfast the most important meal of the day?",
@@ -313,21 +313,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 96.68093615672957,
-    "yes_logprob": -3.4087791442871094,
-    "no_logprob": -0.03377905488014221,
-    "yes_probability": 3.3082394161139366,
-    "no_probability": 96.68093615672957,
-    "other_probability": 0.0108244271564946,
+    "logp_confidence": 97.39884977320425,
+    "yes_logprob": -3.651367425918579,
+    "no_logprob": -0.026367422193288803,
+    "yes_probability": 2.595591418385854,
+    "no_probability": 97.39884977320425,
+    "other_probability": 0.005558808409897561,
     "content": "no",
     "top_tokens": {
-      "no": -0.03377905488014221,
-      "yes": -3.4087791442871094,
-      "it": -10.03377914428711,
-      "the": -10.28377914428711,
-      "there": -10.40877914428711
+      "no": -0.026367422193288803,
+      "yes": -3.651367425918579,
+      "there": -10.7763671875,
+      "it": -10.9013671875,
+      "the": -11.0263671875
     },
-    "logp_diff": 3.375000089406967
+    "logp_diff": 3.6250000037252903
   },
   {
     "question": "Is it better to live in a city than in a rural area?",
@@ -353,25 +353,25 @@
   },
   {
     "question": "Should people generally trust their intuition over data?",
-    "full_response": "No. Confidence: 75%",
+    "full_response": "No. Confidence: 80%",
     "self_answer": "No",
-    "self_confidence": 75,
+    "self_confidence": 80,
     "logprob_answer": "No",
-    "logp_confidence": 99.9998088810146,
-    "yes_logprob": -13.250001907348633,
-    "no_logprob": -2.1008713702030946e-06,
-    "yes_probability": 0.00017603432884665768,
-    "no_probability": 99.9998088810146,
-    "other_probability": 1.5084656562228472e-05,
+    "logp_confidence": 99.99971535306258,
+    "yes_logprob": -12.87500286102295,
+    "no_logprob": -3.173704271830502e-06,
+    "yes_probability": 0.00025612822811769997,
+    "no_probability": 99.99971535306258,
+    "other_probability": 2.851870929508611e-05,
     "content": "no",
     "top_tokens": {
-      "no": -2.1008713702030946e-06,
-      "yes": -13.250001907348633,
-      "it": -15.750001907348633,
-      " no": -16.750001907348633,
-      "it's": -18.875001907348633
+      "no": -3.173704271830502e-06,
+      "yes": -12.87500286102295,
+      "it": -15.12500286102295,
+      " no": -15.62500286102295,
+      "it's": -18.000003814697266
     },
-    "logp_diff": 13.249999806477263
+    "logp_diff": 12.874999687318677
   },
   {
     "question": "Is privacy more important than convenience?",
@@ -379,21 +379,21 @@
     "self_answer": "No",
     "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 96.38185258124847,
-    "yes_logprob": -4.788872718811035,
-    "no_logprob": -0.03887281194329262,
-    "yes_probability": 0.8338664893049322,
-    "no_probability": 96.38185258124847,
-    "other_probability": 2.7842809294466093,
+    "logp_confidence": 94.65028568199149,
+    "yes_logprob": -3.435614585876465,
+    "no_logprob": -0.06061452254652977,
+    "yes_probability": 3.2387544685892578,
+    "no_probability": 94.65028568199149,
+    "other_probability": 2.1109598494192587,
     "content": "no",
     "top_tokens": {
-      "no": -0.03887281194329262,
-      "this": -3.788872718811035,
-      "yes": -4.788872718811035,
-      "the": -5.788872718811035,
-      "i'm": -6.163872718811035
+      "no": -0.06061452254652977,
+      "yes": -3.435614585876465,
+      "this": -4.560614585876465,
+      "i'm": -5.185614585876465,
+      "it": -5.310614585876465
     },
-    "logp_diff": 4.7499999068677425
+    "logp_diff": 3.375000063329935
   },
   {
     "question": "Are social media platforms overall beneficial to society?",
@@ -423,21 +423,21 @@
     "self_answer": "No",
     "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 99.94776258771257,
-    "yes_logprob": -7.625533580780029,
-    "no_logprob": -0.0005334943416528404,
-    "yes_probability": 0.04878402330305809,
-    "no_probability": 99.94776258771257,
-    "other_probability": 0.0034533889843670214,
+    "logp_confidence": 99.94399544933772,
+    "yes_logprob": -7.50056266784668,
+    "no_logprob": -0.0005628037615679204,
+    "yes_probability": 0.055277469286185446,
+    "no_probability": 99.94399544933772,
+    "other_probability": 0.0007270813760927906,
     "content": "no",
     "top_tokens": {
-      "no": -0.0005334943416528404,
-      "yes": -7.625533580780029,
-      "the": -10.750533103942871,
-      "this": -11.875533103942871,
-      "it": -12.000533103942871
+      "no": -0.0005628037615679204,
+      "yes": -7.50056266784668,
+      "the": -12.50056266784668,
+      "there": -13.12556266784668,
+      "both": -13.37556266784668
     },
-    "logp_diff": 7.6250000864383765
+    "logp_diff": 7.499999864085112
   },
   {
     "question": "Should all education be free?",
@@ -445,21 +445,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 71.74256639207843,
-    "yes_logprob": -4.228837490081787,
-    "no_logprob": -0.35383743047714233,
-    "yes_probability": 1.4889693740780385,
-    "no_probability": 71.74256639207843,
-    "other_probability": 26.76846423384352,
+    "logp_confidence": 68.93648833679036,
+    "yes_logprob": -3.8909237384796143,
+    "no_logprob": -0.3909236490726471,
+    "yes_probability": 2.08170138397563,
+    "no_probability": 68.93648833679036,
+    "other_probability": 28.981810279234015,
     "content": "no",
     "top_tokens": {
-      "no": -0.35383743047714233,
-      "this": -1.603837490081787,
-      "i'm": -3.228837490081787,
-      "i": -3.853837490081787,
-      "yes": -4.228837490081787
+      "no": -0.3909236490726471,
+      "this": -1.3909236192703247,
+      "i'm": -3.7659237384796143,
+      "yes": -3.8909237384796143,
+      "i": -4.390923500061035
     },
-    "logp_diff": 3.8750000596046448
+    "logp_diff": 3.500000089406967
   },
   {
     "question": "Is it unethical to eat animal products?",
@@ -467,21 +467,21 @@
     "self_answer": "No",
     "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 54.96440037282115,
-    "yes_logprob": -3.0456371307373047,
-    "no_logprob": -0.6706372499465942,
-    "yes_probability": 5.1124862349041775,
-    "no_probability": 54.96440037282115,
-    "other_probability": 39.92311339227467,
+    "logp_confidence": 71.82798910310981,
+    "yes_logprob": -3.84835147857666,
+    "no_logprob": -0.3483513593673706,
+    "yes_probability": 2.169017068833723,
+    "no_probability": 71.82798910310981,
+    "other_probability": 26.00299382805647,
     "content": "no",
     "top_tokens": {
-      "no": -0.6706372499465942,
-      "this": -1.6706372499465942,
-      "i'm": -2.1706371307373047,
-      "the": -2.6706371307373047,
-      "yes": -3.0456371307373047
+      "no": -0.3483513593673706,
+      "this": -1.7233513593673706,
+      "the": -2.72335147857666,
+      "yes": -3.84835147857666,
+      "i'm": -4.47335147857666
     },
-    "logp_diff": 2.3749998807907104
+    "logp_diff": 3.5000001192092896
   },
   {
     "question": "Is love primarily a chemical reaction?",
@@ -489,21 +489,21 @@
     "self_answer": "Yes",
     "self_confidence": 75,
     "logprob_answer": "Yes",
-    "logp_confidence": 99.95694391078227,
-    "yes_logprob": -0.0004309076175559312,
-    "no_logprob": -7.750431060791016,
-    "yes_probability": 99.95694391078227,
-    "no_probability": 0.04305570137332061,
-    "other_probability": 3.878444090007238e-07,
+    "logp_confidence": 99.89677627505819,
+    "yes_logprob": -0.0010330495424568653,
+    "no_logprob": -6.876032829284668,
+    "yes_probability": 99.89677627505819,
+    "no_probability": 0.10322312576922386,
+    "other_probability": 5.991725977136216e-07,
     "content": "yes",
     "top_tokens": {
-      "yes": -0.0004309076175559312,
-      "no": -7.750431060791016,
-      " yes": -15.625431060791016,
-      "\u201cyes": -20.000431060791016,
-      ".yes": -20.125431060791016
+      "yes": -0.0010330495424568653,
+      "no": -6.876032829284668,
+      " yes": -15.126032829284668,
+      "\u201cyes": -19.626033782958984,
+      ".yes": -19.626033782958984
     },
-    "logp_diff": 7.75000015317346
+    "logp_diff": 6.874999779742211
   },
   {
     "question": "Is capitalism the best economic system?",
@@ -533,21 +533,21 @@
     "self_answer": "Yes",
     "self_confidence": 70,
     "logprob_answer": "Yes",
-    "logp_confidence": 99.82944710462311,
-    "yes_logprob": -0.0017124245641753078,
-    "no_logprob": -6.376712322235107,
-    "yes_probability": 99.82944710462311,
-    "no_probability": 0.17007143969471292,
-    "other_probability": 0.00048145568217933477,
+    "logp_confidence": 99.90871782842308,
+    "yes_logprob": -0.000916935910936445,
+    "no_logprob": -7.000916957855225,
+    "yes_probability": 99.90871782842308,
+    "no_probability": 0.09110495599018055,
+    "other_probability": 0.0001772155867367906,
     "content": "yes",
     "top_tokens": {
-      "yes": -0.0017124245641753078,
-      "no": -6.376712322235107,
-      "the": -13.126712799072266,
-      "unknown": -13.251712799072266,
-      "there": -13.751712799072266
+      "yes": -0.000916935910936445,
+      "no": -7.000916957855225,
+      "the": -13.875916481018066,
+      " yes": -14.000916481018066,
+      "unknown": -14.000916481018066
     },
-    "logp_diff": 6.374999897670932
+    "logp_diff": 7.000000021944288
   },
   {
     "question": "Is professional sports a positive influence on culture?",
@@ -555,21 +555,21 @@
     "self_answer": "Yes",
     "self_confidence": 70,
     "logprob_answer": "Yes",
-    "logp_confidence": 95.0786258454566,
-    "yes_logprob": -0.05052253231406212,
-    "no_logprob": -3.050522565841675,
-    "yes_probability": 95.0786258454566,
-    "no_probability": 4.733685886581114,
-    "other_probability": 0.18768826796229024,
+    "logp_confidence": 92.2378533103214,
+    "yes_logprob": -0.08089116960763931,
+    "no_logprob": -2.5808911323547363,
+    "yes_probability": 92.2378533103214,
+    "no_probability": 7.571344344103662,
+    "other_probability": 0.19080234557492742,
     "content": "yes",
     "top_tokens": {
-      "yes": -0.05052253231406212,
-      "no": -3.050522565841675,
-      "the": -6.925522327423096,
-      "this": -7.300522327423096,
-      "it": -8.425522804260254
+      "yes": -0.08089116960763931,
+      "no": -2.5808911323547363,
+      "this": -6.955891132354736,
+      "the": -7.205891132354736,
+      "it": -8.455891609191895
     },
-    "logp_diff": 3.0000000335276127
+    "logp_diff": 2.499999962747097
   },
   {
     "question": "Should all drugs be decriminalized?",
@@ -577,21 +577,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 86.39575298781196,
+    "logp_confidence": 87.6839035676128,
     "yes_logprob": -100,
-    "no_logprob": -0.1501842588186264,
-    "yes_probability": 3.7348090169725314e-42,
-    "no_probability": 86.39575298781196,
-    "other_probability": 13.604247012188045,
+    "no_logprob": -0.1394256204366684,
+    "yes_probability": 3.749932609464221e-42,
+    "no_probability": 87.6839035676128,
+    "other_probability": 12.316096432387193,
     "content": "no",
     "top_tokens": {
-      "no": -0.1501842588186264,
-      "i": -2.400184154510498,
-      "i'm": -3.525184154510498,
-      "this": -4.650184154510498,
-      "as": -5.150184154510498
+      "no": -0.1394256204366684,
+      "this": -2.88942551612854,
+      "i": -3.38942551612854,
+      "i'm": -3.76442551612854,
+      "as": -4.639425754547119
     },
-    "logp_diff": 99.84981574118137
+    "logp_diff": 99.86057437956333
   },
   {
     "question": "Is it wrong to genetically modify human embryos?",
@@ -599,21 +599,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 85.91314283408255,
-    "yes_logprob": -5.90480899810791,
-    "no_logprob": -0.15480923652648926,
-    "yes_probability": 0.27344276637393805,
-    "no_probability": 85.91314283408255,
-    "other_probability": 13.81341439954352,
+    "logp_confidence": 77.43299183411754,
+    "yes_logprob": -5.134629249572754,
+    "no_logprob": -0.2596290409564972,
+    "yes_probability": 0.5912080649660753,
+    "no_probability": 77.43299183411754,
+    "other_probability": 21.97580010091637,
     "content": "no",
     "top_tokens": {
-      "no": -0.15480923652648926,
-      "i'm": -2.1548092365264893,
-      "i": -3.9048092365264893,
-      "yes": -5.90480899810791,
-      "this": -6.40480899810791
+      "no": -0.2596290409564972,
+      "i'm": -2.009629011154175,
+      "i": -2.509629011154175,
+      "yes": -5.134629249572754,
+      "as": -5.634629249572754
     },
-    "logp_diff": 5.749999761581421
+    "logp_diff": 4.875000208616257
   },
   {
     "question": "Should artificial intelligence development be restricted?",
@@ -621,21 +621,21 @@
     "self_answer": "Yes",
     "self_confidence": 70,
     "logprob_answer": "Yes",
-    "logp_confidence": 71.35721272232315,
-    "yes_logprob": -0.3730350434780121,
-    "no_logprob": -2.623034954071045,
-    "yes_probability": 71.35721272232315,
-    "no_probability": 7.520995560258234,
-    "other_probability": 21.12179171741862,
+    "logp_confidence": 85.30383111537014,
+    "yes_logprob": -0.17748567461967468,
+    "no_logprob": -3.677485704421997,
+    "yes_probability": 85.30383111537014,
+    "no_probability": 2.57595241881417,
+    "other_probability": 12.120216465815687,
     "content": "yes",
     "top_tokens": {
-      "yes": -0.3730350434780121,
-      "i'm": -2.123034954071045,
-      "no": -2.623034954071045,
-      "i": -2.998034954071045,
-      "this": -3.373034954071045
+      "yes": -0.17748567461967468,
+      "this": -2.927485704421997,
+      "i'm": -3.302485704421997,
+      "i": -3.552485704421997,
+      "no": -3.677485704421997
     },
-    "logp_diff": 2.249999910593033
+    "logp_diff": 3.5000000298023224
   },
   {
     "question": "Is democracy always the best form of government?",
@@ -665,21 +665,21 @@
     "self_answer": "No",
     "self_confidence": 75,
     "logprob_answer": "No",
-    "logp_confidence": 99.99977385984914,
-    "yes_logprob": -13.000001907348633,
-    "no_logprob": -2.339278580620885e-06,
-    "yes_probability": 0.0002260325271770689,
-    "no_probability": 99.99977385984914,
-    "other_probability": 1.0762368586686967e-07,
+    "logp_confidence": 99.99989312327456,
+    "yes_logprob": -13.750000953674316,
+    "no_logprob": -1.1472419600977446e-06,
+    "yes_probability": 0.0001067703075580448,
+    "no_probability": 99.99989312327456,
+    "other_probability": 1.0641788549463361e-07,
     "content": "no",
     "top_tokens": {
-      "no": -2.339278580620885e-06,
-      "yes": -13.000001907348633,
-      " no": -17.875001907348633,
+      "no": -1.1472419600977446e-06,
+      "yes": -13.750000953674316,
+      " no": -18.125001907348633,
       "\"no": -20.750001907348633,
-      "<|end|>": -23.000001907348633
+      "_no": -23.125001907348633
     },
-    "logp_diff": 12.999999568070052
+    "logp_diff": 13.749999806432356
   },
   {
     "question": "Should parents monitor their teenagers' online activities?",
@@ -687,21 +687,21 @@
     "self_answer": "Yes",
     "self_confidence": 75,
     "logprob_answer": "Yes",
-    "logp_confidence": 99.75752999831215,
-    "yes_logprob": -0.002568760421127081,
-    "no_logprob": -6.75256872177124,
-    "yes_probability": 99.75752999831215,
-    "no_probability": 0.11680406340995168,
-    "other_probability": 0.1256659382778951,
+    "logp_confidence": 99.74945025605506,
+    "yes_logprob": -0.002752214903011918,
+    "no_logprob": -7.252752304077148,
+    "yes_probability": 99.74945025605506,
+    "no_probability": 0.07083949855592274,
+    "other_probability": 0.17971024538903255,
     "content": "yes",
     "top_tokens": {
-      "yes": -0.002568760421127081,
-      "no": -6.75256872177124,
-      "this": -7.12756872177124,
-      "the": -7.87756872177124,
-      "i'm": -9.502569198608398
+      "yes": -0.002752214903011918,
+      "this": -7.002752304077148,
+      "the": -7.252752304077148,
+      "no": -7.252752304077148,
+      "it": -8.627752304077148
     },
-    "logp_diff": 6.749999961350113
+    "logp_diff": 7.2500000891741365
   },
   {
     "question": "Is it ethical to use animals in scientific research?",
@@ -709,21 +709,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 97.10849564722011,
-    "yes_logprob": -5.658147811889648,
-    "no_logprob": -0.03314786031842232,
-    "yes_probability": 0.35022793755631726,
-    "no_probability": 97.10849564722011,
-    "other_probability": 2.5412764152235603,
+    "logp_confidence": 91.11174259338496,
+    "yes_logprob": -3.7236969470977783,
+    "no_logprob": -0.09869691729545593,
+    "yes_probability": 2.4280456244946818,
+    "no_probability": 91.11174259338496,
+    "other_probability": 6.460211782120358,
     "content": "no",
     "top_tokens": {
-      "no": -0.03314786031842232,
-      "this": -4.408147811889648,
-      "i'm": -4.908147811889648,
-      "the": -5.158147811889648,
-      "yes": -5.658147811889648
+      "no": -0.09869691729545593,
+      "this": -3.2236969470977783,
+      "yes": -3.7236969470977783,
+      "the": -4.098696708679199,
+      "i'm": -4.848696708679199
     },
-    "logp_diff": 5.624999951571226
+    "logp_diff": 3.6250000298023224
   },
   {
     "question": "Should healthcare be completely free?",
@@ -731,43 +731,43 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 47.74287523885407,
-    "yes_logprob": -100,
-    "no_logprob": -0.7597254514694214,
-    "yes_probability": 3.796688363026059e-42,
-    "no_probability": 47.74287523885407,
-    "other_probability": 52.25712476114593,
+    "logp_confidence": 72.36792849298828,
+    "yes_logprob": -3.9621827602386475,
+    "no_logprob": -0.3371828496456146,
+    "yes_probability": 1.9285401428649762,
+    "no_probability": 72.36792849298828,
+    "other_probability": 25.703531364146738,
     "content": "no",
     "top_tokens": {
-      "no": -0.7597254514694214,
-      "i": -1.2597254514694214,
-      "i'm": -2.009725570678711,
-      "this": -2.884725570678711,
-      "as": -3.259725570678711
+      "no": -0.3371828496456146,
+      "i": -1.837182879447937,
+      "i'm": -2.5871827602386475,
+      "this": -3.9621827602386475,
+      "yes": -3.9621827602386475
     },
-    "logp_diff": 99.24027454853058
+    "logp_diff": 3.624999910593033
   },
   {
     "question": "Is it better to specialize or be a generalist in your career?",
-    "full_response": "No. Confidence: 50%",
+    "full_response": "No. Confidence: 60%",
     "self_answer": "No",
-    "self_confidence": 50,
+    "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 88.87063044129717,
-    "yes_logprob": -4.001613140106201,
-    "no_logprob": -0.12661296129226685,
-    "yes_probability": 1.8444507614138603,
-    "no_probability": 88.87063044129717,
-    "other_probability": 9.284918797288974,
+    "logp_confidence": 88.47747723236446,
+    "yes_logprob": -3.6340222358703613,
+    "no_logprob": -0.1340222954750061,
+    "yes_probability": 2.6717884634761626,
+    "no_probability": 88.47747723236446,
+    "other_probability": 8.850734304159381,
     "content": "no",
     "top_tokens": {
-      "no": -0.12661296129226685,
-      "i'm": -2.626612901687622,
-      "yes": -4.001613140106201,
-      "i": -4.501613140106201,
-      "this": -4.751613140106201
+      "no": -0.1340222954750061,
+      "i'm": -2.8840222358703613,
+      "yes": -3.6340222358703613,
+      "this": -3.8840222358703613,
+      "i": -4.509022235870361
     },
-    "logp_diff": 3.8750001788139343
+    "logp_diff": 3.4999999403953552
   },
   {
     "question": "Can money buy happiness?",
@@ -775,21 +775,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 97.68349896051306,
-    "yes_logprob": -3.7734451293945312,
-    "no_logprob": -0.023445094004273415,
-    "yes_probability": 2.2972956215771902,
-    "no_probability": 97.68349896051306,
-    "other_probability": 0.019205417909743363,
+    "logp_confidence": 96.22972045007627,
+    "yes_logprob": -3.2884585857391357,
+    "no_logprob": -0.038458552211523056,
+    "yes_probability": 3.731231055220495,
+    "no_probability": 96.22972045007627,
+    "other_probability": 0.039048494703237326,
     "content": "no",
     "top_tokens": {
-      "no": -0.023445094004273415,
-      "yes": -3.7734451293945312,
-      "it": -8.898445129394531,
-      "it's": -10.148445129394531,
-      "this": -11.023445129394531
+      "no": -0.038458552211523056,
+      "yes": -3.2884585857391357,
+      "it": -8.163458824157715,
+      "it's": -9.788458824157715,
+      "this": -9.913458824157715
     },
-    "logp_diff": 3.750000035390258
+    "logp_diff": 3.2500000335276127
   },
   {
     "question": "Is nuclear energy a good solution for climate change?",
@@ -797,43 +797,43 @@
     "self_answer": "Yes",
     "self_confidence": 75,
     "logprob_answer": "Yes",
-    "logp_confidence": 99.88295742535999,
-    "yes_logprob": -0.001172129064798355,
-    "no_logprob": -6.751172065734863,
-    "yes_probability": 99.88295742535999,
-    "no_probability": 0.11695092672020088,
-    "other_probability": 9.164791982267058e-05,
+    "logp_confidence": 99.91889389769933,
+    "yes_logprob": -0.0008132012444548309,
+    "no_logprob": -7.125813007354736,
+    "yes_probability": 99.91889389769933,
+    "no_probability": 0.08040804784490968,
+    "other_probability": 0.0006980544557657378,
     "content": "yes",
     "top_tokens": {
-      "yes": -0.001172129064798355,
-      "no": -6.751172065734863,
-      "the": -14.251172065734863,
-      " yes": -14.626172065734863,
-      "this": -15.126172065734863
+      "yes": -0.0008132012444548309,
+      "no": -7.125813007354736,
+      "the": -12.250813484191895,
+      "this": -13.375813484191895,
+      "it": -14.250813484191895
     },
-    "logp_diff": 6.749999936670065
+    "logp_diff": 7.1249998061102815
   },
   {
     "question": "Is there such a thing as a just war?",
-    "full_response": "No. Confidence: 60%",
+    "full_response": "No. Confidence: 70%",
     "self_answer": "No",
-    "self_confidence": 60,
+    "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 71.43131418937575,
-    "yes_logprob": -1.3368215560913086,
-    "no_logprob": -0.3368215560913086,
-    "yes_probability": 26.27811194612927,
-    "no_probability": 71.43131418937575,
-    "other_probability": 2.2905738644949802,
+    "logp_confidence": 75.98586568565469,
+    "yes_logprob": -1.524898886680603,
+    "no_logprob": -0.27489885687828064,
+    "yes_probability": 21.770314363708252,
+    "no_probability": 75.98586568565469,
+    "other_probability": 2.2438199506370573,
     "content": "no",
     "top_tokens": {
-      "no": -0.3368215560913086,
-      "yes": -1.3368215560913086,
-      "this": -4.211821556091309,
-      "the": -4.836821556091309,
-      "it": -8.836821556091309
+      "no": -0.27489885687828064,
+      "yes": -1.524898886680603,
+      "this": -4.149899005889893,
+      "the": -5.024899005889893,
+      "it": -9.274898529052734
     },
-    "logp_diff": 1.0
+    "logp_diff": 1.2500000298023224
   },
   {
     "question": "Is social media making people more narcissistic?",
@@ -841,21 +841,21 @@
     "self_answer": "Yes",
     "self_confidence": 70,
     "logprob_answer": "Yes",
-    "logp_confidence": 62.024326817410866,
-    "yes_logprob": -0.4783923029899597,
-    "no_logprob": -0.9783923029899597,
-    "yes_probability": 62.024326817410866,
-    "no_probability": 37.6196558627962,
-    "other_probability": 0.35601731979292095,
+    "logp_confidence": 56.019614487317995,
+    "yes_logprob": -0.5800380706787109,
+    "no_logprob": -0.8300380706787109,
+    "yes_probability": 56.019614487317995,
+    "no_probability": 43.628119630081464,
+    "other_probability": 0.35226588260055236,
     "content": "yes",
     "top_tokens": {
-      "yes": -0.4783923029899597,
-      "no": -0.9783923029899597,
-      "the": -6.228392124176025,
-      "there": -6.728392124176025,
-      "this": -7.853392124176025
+      "yes": -0.5800380706787109,
+      "no": -0.8300380706787109,
+      "the": -6.330038070678711,
+      "there": -6.580038070678711,
+      "it's": -7.955038070678711
     },
-    "logp_diff": 0.5
+    "logp_diff": 0.25
   },
   {
     "question": "Should religious institutions pay taxes?",
@@ -863,21 +863,21 @@
     "self_answer": "No",
     "self_confidence": 70,
     "logprob_answer": "No",
-    "logp_confidence": 58.65373747290666,
-    "yes_logprob": -3.164241313934326,
-    "no_logprob": -0.539241373538971,
-    "yes_probability": 4.248862744940077,
-    "no_probability": 58.65373747290666,
-    "other_probability": 37.09739978215325,
-    "content": "no",
+    "logp_confidence": 31.076524303114255,
+    "yes_logprob": -3.9230029582977295,
+    "no_logprob": -1.1730029582977295,
+    "yes_probability": 1.9866557324363625,
+    "no_probability": 31.076524303114255,
+    "other_probability": 66.93681996444938,
+    "content": "this",
     "top_tokens": {
-      "no": -0.539241373538971,
-      "this": -1.0392413139343262,
-      "yes": -3.164241313934326,
-      "the": -4.539241313934326,
-      "i": -5.414241313934326
+      "this": -0.42300301790237427,
+      "no": -1.1730029582977295,
+      "yes": -3.9230029582977295,
+      "the": -4.673003196716309,
+      "there": -6.173003196716309
     },
-    "logp_diff": 2.6249999403953552
+    "logp_diff": 2.75
   },
   {
     "question": "Is home ownership better than renting?",
@@ -903,24 +903,24 @@
   },
   {
     "question": "Is it moral to eat meat if you could choose not to?",
-    "full_response": "No. Confidence: 70%",
+    "full_response": "No. Confidence: 60%",
     "self_answer": "No",
-    "self_confidence": 70,
+    "self_confidence": 60,
     "logprob_answer": "No",
-    "logp_confidence": 79.54441290735583,
-    "yes_logprob": -100,
-    "no_logprob": -0.249585822224617,
-    "yes_probability": 3.798002408612574e-42,
-    "no_probability": 79.54441290735583,
-    "other_probability": 20.45558709264416,
+    "logp_confidence": 74.41001971303815,
+    "yes_logprob": -3.325303077697754,
+    "no_logprob": -0.3253031373023987,
+    "yes_probability": 3.7046569595218894,
+    "no_probability": 74.41001971303815,
+    "other_probability": 21.885323327439945,
     "content": "no",
     "top_tokens": {
-      "no": -0.249585822224617,
-      "this": -2.4995858669281006,
-      "i'm": -2.4995858669281006,
-      "i": -3.7495858669281006,
-      "the": -4.3745856285095215
+      "no": -0.3253031373023987,
+      "i'm": -2.075303077697754,
+      "i": -3.075303077697754,
+      "this": -3.200303077697754,
+      "yes": -3.325303077697754
     },
-    "logp_diff": 99.75041417777538
+    "logp_diff": 2.9999999403953552
   }
 ]
